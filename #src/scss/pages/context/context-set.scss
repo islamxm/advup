@@ -1,0 +1,78 @@
+.context-set {
+    background-color: #fff;
+
+    &__in {
+        padding: 50px 0;
+    }
+
+    &__head {
+        margin-bottom: 65px;
+
+        &_title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        &_text {
+            font-size: 20px;
+            line-height: 130%;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+
+        &_img {
+            width: 40%;
+            height: 314px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                display: flex;
+            }
+        }
+
+        &_descr {
+            width: 60%;
+            padding-left: 100px;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 80px;
+                height: 80px;
+                background-image: url('../img/context-set-icon.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                content: '';
+            }
+
+            &_head {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 130%;
+                margin-bottom: 45px;
+            }
+
+            &_text {
+                margin-bottom: 70px;
+            }
+
+            &_link {
+                display: inline-block;
+                color: $blue;
+                text-decoration: underline;
+            }
+        }
+    }
+}

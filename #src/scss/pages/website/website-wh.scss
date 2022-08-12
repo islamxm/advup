@@ -1,0 +1,68 @@
+.website-wh {
+
+    background-color: #fff;
+
+    &__in {
+        padding: 60px 0;
+    }
+
+    &__head {
+        margin-bottom: 50px;
+
+        &_title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        &_text {
+            text-align: center;
+            max-width: 860px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    &__body {   
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &_item {    
+            width: calc(100% / 3.1);
+            display: flex;
+            align-items: flex-start;
+
+            &_icon {
+                margin-right: 10px;
+                flex: 0 0 auto;
+                width: 65px;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    display: flex;
+                }
+            }
+
+            &_descr {
+
+                &_name {
+                    margin-bottom: 30px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+
+                &_text {
+                    line-height: 130%;
+                }
+            }
+        }
+    }
+}

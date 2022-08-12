@@ -1,0 +1,45 @@
+.seo-bnf {
+    background-color: #fff;
+    position: relative;
+
+
+    &:after {
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: #E0E0E0;
+        content: '';
+    }
+
+    &__in {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+        padding: 40px 0 80px;
+    }
+
+    &__item {
+        background-color: $dark;
+        width: calc(100% / 4.1);
+        height: 218px;
+        padding: 45px 30px;
+
+        &_val {
+            color: $blue;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 15px;
+        }
+
+        &_text {
+            color: #fff;
+
+        }
+    }
+}

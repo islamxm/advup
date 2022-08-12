@@ -1,0 +1,18 @@
+.input {
+    input {
+        width: 100%;
+        display: block;
+        padding: 15px 20px;
+        background: #FFFFFF;
+        /* Серый светлый */
+
+        border: 1px solid #E0E0E0;
+        border-radius: 3px;
+        font-size: 14px;
+        line-height: 17px;
+        
+        &::placeholder {
+            color: #828282;
+        }
+    }
+}

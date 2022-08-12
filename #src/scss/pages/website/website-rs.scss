@@ -1,0 +1,98 @@
+.website-rs {
+    background-color: #fff;
+
+    &__in {
+        padding: 60px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__main {
+        width: 33%;
+
+        &_head {
+            margin-bottom: 40px;
+            span {
+                display: block;
+                font-weight: 700;
+                font-size: 210px;
+                line-height: 100%;
+                color: #084DFF;
+            }
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 130%;
+        }
+    }
+
+    &__list {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: -40px;
+
+        &_item {
+            width: 44%;
+            position: relative;
+            margin-bottom: 50px;
+            &_name {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 130%;
+                margin-bottom: 15px;
+                position: relative;
+            }
+
+            &_text {
+
+            }
+
+            &:after {
+                position: absolute;
+                top: -20px;
+                left: -10%;
+                
+                color: rgba(8, 77, 255, 0.13);
+                font-weight: 900;
+                font-size: 140px;
+                line-height: 100%;
+            }
+
+
+            &:nth-child(1) {
+                &:after {
+                    content: '1';
+                }
+            }
+            &:nth-child(2) {
+                &:after {
+                    content: '2';
+                }
+            }
+            &:nth-child(3) {
+                &:after {
+                    content: '3';
+                }
+            }
+            &:nth-child(4) {
+                &:after {
+                    content: '4';
+                }
+            }
+            &:nth-child(5) {
+                &:after {
+                    content: '5';
+                }
+            }
+            &:nth-child(6) {
+                &:after {
+                    content: '6';
+                }
+            }
+
+
+        }
+    }
+}

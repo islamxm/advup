@@ -1,0 +1,32 @@
+.website-bnf {
+
+    .seo-bnf {
+
+        &__item {
+            width: calc(100% / 3.1);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: 120px;
+
+            &_val {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+            }
+
+            &_text {
+                width: calc(100% - 90px);
+            }
+
+            &:nth-child(1) {
+                background-image: url('../img/svg/website-bnf-1.svg');    
+            }
+            &:nth-child(2) {
+                background-image: url('../img/svg/website-bnf-2.svg');    
+            }
+            &:nth-child(3) {
+                background-image: url('../img/svg/website-bnf-3.svg');    
+            }
+        }
+    }
+}

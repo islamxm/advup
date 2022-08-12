@@ -1,0 +1,115 @@
+.brands {
+    
+    .container {
+        max-width: 890px;
+        width: 100%;
+        
+    }
+
+    &__in {
+        padding: 60px 0;
+        
+    }
+
+    &__head {
+        margin-bottom: 50px;
+
+        &_title {
+            text-align: center;
+            text-align: center;
+        }
+
+        &_text {
+            margin-top: 35px;
+            text-align: center;
+        }
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 130px 55px 130px;
+        grid-gap: 25px;
+
+        &_item {
+            border-radius: 18px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                display: flex;
+            }
+
+            &:nth-child(1) {
+                grid-column-start: 1;
+                grid-column-end: 1;
+                background-color: #002A74;
+            }
+
+            &:nth-child(2) {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                background-color: #97C019;
+            }
+
+            &:nth-child(3) {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background-color: #254182;
+            }
+
+            &:nth-child(4) {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                background-color: #fff;
+            }
+
+            &:nth-child(5) {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                background-color: #007AC3;
+            }
+
+            &:nth-child(6) {
+                background-color: #F0822F;
+            }
+
+            &:nth-child(7) {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background-color: #E60000;
+            }
+
+            &:nth-child(8) {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background-color: #fff;
+            }
+
+            &:nth-child(9) {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                background-color: #E72228;
+            }
+
+            &:nth-child(10) {
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background-color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.hero {
+
+    &__in {
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+        max-width: 890px;
+        width: 100%;
+
+        &_title {
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 140%;
+            margin-bottom: 60px;
+        }
+
+        &_subtitle {
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 36px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+
+            span {
+                background-color: $blue;
+                padding:5px;
+                font-weight: 700;
+                color: #fff;
+                border-radius: 4px;
+            }
+        }
+
+        &_body {
+
+            &_head {
+                margin-bottom: 35px;
+
+            }
+            &_item {
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 15px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:after {
+                    position: absolute;
+                    left: 0;
+                    top: calc(50% - 10px);
+                    width: 20px;
+                    height: 20px;
+                    content: '';
+                    background-image: url('../img/svg/check.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    &__feed {
+        &_form {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 19px;
+            padding: 50px 30px;
+            max-width: 420px;
+            width: 100%;
+
+            &_head {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            &_text {
+                text-align: center;
+                margin-bottom: 35px;
+            }
+
+            &_body {
+                margin-bottom: 35px;
+
+                &_item {
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            &_action {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

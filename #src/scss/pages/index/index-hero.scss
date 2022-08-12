@@ -1,0 +1,45 @@
+.index-hero {
+    
+
+    &__in {
+        padding: 100px 0;
+        background-image: url('../img/hero-1.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 50%;
+    }
+
+    &__content {
+        max-width: 960px;
+        width: 100%;
+        &_title {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 77px;
+            margin-bottom: 60px;
+        }
+
+        &_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 700px;
+            margin-bottom: 60px;
+        }
+
+        &_item {
+            margin-bottom: 40px;
+            width: 48%;
+            &_val {
+                color: $blue;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 54px;
+            }
+
+            &_text {
+
+            }
+        }
+    }
+}

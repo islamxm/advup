@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./html/blocks/head.html')
+<body>
+    <div class="wrapper">
+        @@include('./html/blocks/header.html')
+        <main class="main">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero__in">
+                        <div class="hero__content">
+                            <h2 class="hero__content_title">
+                                Контакты
+                            </h2>
+                            <div class="contacts-hero">
+                                <div class="contacts-hero__adr">г. Москва</div>
+                                <div class="contacts-hero__body">
+                                    <div class="contacts-hero__body_item contacts-hero__body_item-tel">
+                                        <div class="contacts-hero__body_item_name">Телефон</div>
+                                        <a href="tel:" class="contacts-hero__body_item_val">+7 (499) 113-33-97
+                                        </a>
+                                    </div>
+                                    <div class="contacts-hero__body_item contacts-hero__body_item-tm">
+                                        <div class="contacts-hero__body_item_name">Время работы</div>
+                                        <div class="contacts-hero__body_item_val">C 09:00 до 19:00 - будние дни</div>
+                                    </div>
+                                    <div class="contacts-hero__body_item contacts-hero__body_item-mail">
+                                        <div class="contacts-hero__body_item_name">Напишите нам</div>
+                                        <div class="contacts-hero__body_item_val">
+                                            <a href="mailto:">info@advup.ru</a> либо через форму обратной связи
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__feed">
+                            <form action="" class="hero__feed_form">
+                                <h3 class="hero__feed_form_head">БЕСПЛАТНЫЙ АУДИТ</h3>
+                                <div class="hero__feed_form_text">
+                                    Подсчитаем рекламный бюджет на 1 месяц и количество потенциальных клиентов для сайта:
+                                </div>
+                                <div class="hero__feed_form_body">
+                                    <div class="hero__feed_form_body_item">
+                                        <div class="input">
+                                            <input type="text" placeholder="Имя">
+                                        </div>
+                                    </div>
+                                    <div class="hero__feed_form_body_item">
+                                        <div class="input">
+                                            <input type="text" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="hero__feed_form_body_item">
+                                        <div class="input">
+                                            <input type="text" placeholder="Телефон: +7">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero__feed_form_action">
+                                    <button class="hero__feed_form_action_btn button button-blue">
+                                        <div class="button__text">ЗАКАЗАТЬ</div>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        @@include('./html/blocks/footer.html')
+    </div>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

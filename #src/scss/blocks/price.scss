@@ -1,0 +1,139 @@
+.price {
+    background-color: $dark;
+
+    &__in {
+        padding: 100px 0;
+    }
+
+    &__title {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 70px;
+    }
+
+    &__body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &_item {
+            padding: 30px;
+            border: 3px solid #E0E0E0;
+            border-radius: 34px;
+            color: #fff;
+            width: calc(100% / 3.2);
+
+            &_name-lg {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+
+                a {
+                    color: #084DFF;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: none;
+                    text-decoration: underline;
+                }
+            }
+
+            &_name {    
+                text-align: center;
+                padding-bottom: 20px;
+                border-bottom: 3px solid #E0E0E0;
+                margin-bottom: 60px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                padding-left: 65px;
+                padding-right: 65px;
+                position: relative;
+
+                /* Серый светлый */
+
+                color: #E0E0E0;
+                text-transform: uppercase;
+
+                &_ex {
+                    position: absolute;
+                    top: -50px;
+                    right: -40px;
+                    height: 42px;
+                    width: 60px;
+                    background-color: $blue;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+
+                    /* Серый светлый */
+
+                    color: #E0E0E0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 7px;
+                }
+            }
+
+            
+            &_value {
+                text-align: center;
+                color: $blue;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 58px;
+                margin-bottom: 55px;
+            }
+
+            &_ex {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+
+                /* Серый светлый */
+
+                color: #E0E0E0;
+                margin-bottom: 50px;
+            }
+
+            &_text {
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            &_btn {
+                width: 100%;
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 70px;
+        
+        &_main {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            /* identical to box height */
+
+            text-align: center;
+
+            /* Серый светлый */
+
+            color: #E0E0E0;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        &_ex {
+            text-align: center;
+            color: #E0E0E0;
+        }
+    }
+}

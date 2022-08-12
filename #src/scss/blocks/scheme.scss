@@ -1,0 +1,121 @@
+.scheme {
+    background-color: #fff;
+
+    &__in {
+        padding: 100px 0;
+    }
+
+    &__head {
+        margin-bottom: 90px;
+
+        &_title {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        &_text {
+            text-align: center;
+        }
+    }
+
+    &__body {
+
+        &_part {
+            display: flex;
+            justify-content: flex-start;
+            
+            
+            &_item {
+                width: 50%;
+                // display: flex;
+                // align-items: flex-start;
+                padding-right: 64px;
+                position: relative;
+                min-height: 131px;    
+
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 100%;
+                    border-right: 3px dashed $blue;
+                    content: '';
+                }
+                &_num {
+                    width: 42px;
+                    height: 51px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $blue;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 130%;
+                    text-align: center;
+                    color: #E0E0E0;
+                    z-index: 3;
+
+                    position: absolute;
+                    right: -21px;
+                    top: 0;
+                }
+
+                &_descr {
+                    
+                    &_name {
+                        margin-bottom: 18px;
+                        color: $blue;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-align: right;
+                    }
+
+                    &_text {
+                       
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                justify-content: flex-end;
+                
+
+                .scheme__body_part_item {
+                    padding-right: 0;
+                    padding-left: 64px;
+
+                    &:after {
+                        right: unset;
+                        left: -3px;
+                    }
+                    &_descr {
+
+                        &_name {
+                            text-align: left;
+                        }
+
+                        
+                    }
+
+                    &_num {
+                        right: unset;
+                        left: -21px;
+                    }
+                }
+                
+            }
+
+            &:last-child {
+
+                .scheme__body_part_item {
+
+                    &:after {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+    }
+}

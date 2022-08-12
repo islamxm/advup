@@ -1,0 +1,51 @@
+@import './global/vars';
+@import './global/global';
+
+//components
+@import './components/button';
+@import './components/input';
+//blocks
+@import './blocks/header';
+@import './blocks/footer';
+@import './blocks/hero';
+@import './blocks/off';
+@import './blocks/price';
+@import './blocks/scheme';
+@import './blocks/brands';
+
+
+//pages
+
+//index 
+@import './pages/index/index-hero';
+@import './pages/index/index-serv';
+
+//seo
+@import './pages/seo/seo-bnf';
+@import './pages/seo/seo-sys';
+@import './pages/seo/seo-port';
+@import './pages/seo/seo-rs';
+@import './pages/seo/seo-adc';
+@import './pages/seo/seo-ccl';
+@import './pages/seo/seo-acc';
+@import './pages/seo/seo-other';
+
+
+//context
+@import './pages/context/context-set';
+@import './pages/context/context-ben';
+@import './pages/context/context-pb';
+@import './pages/context/context-us';
+@import './pages/context/context-pro';
+
+
+//website
+@import './pages/website/website-bnf';
+@import './pages/website/website-wh';
+@import './pages/website/website-rt';
+@import './pages/website/website-rs';
+@import './pages/website/website-adc';
+@import './pages/website/website-tm';
+
+//contacts
+@import './pages/contacts/contacts-hero';

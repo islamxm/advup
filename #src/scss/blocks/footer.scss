@@ -1,0 +1,72 @@
+.footer {
+
+    &__main {
+        border-top: 5px solid #E0E0E0;
+        background-color: $dark;
+
+        &_in {
+            padding: 50px 0 40px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        &_logo {
+            margin-right: 20px;
+        }
+
+        &_nav {
+            display: flex;
+            align-items: flex-start;
+
+            &_part {
+                margin-right: 170px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &_item {
+                    margin-bottom: 15px;
+
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        &_ex {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-left: 20px;
+
+            &_link {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: right;
+
+                /* Серый светлый */
+                margin-bottom: 15px;
+                color: #E0E0E0;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+            }
+        }
+    }
+
+    &__bottom {
+        background: #4F4F4F;
+
+        &_in {
+            padding: 15px 0;
+            color: #E0E0E0;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.context-ben {
+    background-color: $dark;
+    color: #fff;
+
+    &__in {
+        padding: 80px 0;
+    }
+
+    &__head {
+        margin-bottom: 100px;
+
+        &_title {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        &_text {
+            text-align: center;
+            max-width: 725px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    &__body {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        &_item {
+            width: calc(100% / 4.1);
+            display: flex;
+            align-items: flex-start;
+
+            &_icon {
+                width: 70px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 auto;
+                margin-right: 5px;
+                margin-top: -10px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    display: flex;
+                }
+            }
+
+            &_descr {
+
+                &_name {
+                    margin-bottom: 25px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 130%;
+                }
+
+                &_text {
+
+                }
+            }
+        }
+    }
+}

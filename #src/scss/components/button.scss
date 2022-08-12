@@ -1,0 +1,60 @@
+.button {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include def-anim;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        content: '';
+        @include def-anim;
+    }
+
+    &__text {
+        position: relative;
+        z-index: 2;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.button-blue {
+    background-color: $blue;
+    
+    .button__text {
+        color: #fff;
+    }
+
+    &:after {
+        background-color: #000;
+    }
+}
+
+.button.button-dark {
+    background-color: $dark;
+
+    .button__text{
+         color: #fff;
+    }
+    &:after {
+        background-color: #aaa;
+    }
+}

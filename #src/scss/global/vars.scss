@@ -1,0 +1,6 @@
+@mixin def-anim {
+    transition: all .3s ease-in-out;
+}
+
+$blue: #084DFF;
+$dark: #2A2A2A;

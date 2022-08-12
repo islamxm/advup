@@ -1,0 +1,112 @@
+.seo-ccl {
+    background-color: $blue;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background-color: 
+        #D9D9D9;
+    }
+    &__in {
+        display: flex;
+    }
+
+    &__head {
+        width: 35%;
+        padding:80px 40px 80px 30px;
+
+        &_title {
+            color: #E0E0E0;
+
+        }
+    }
+
+    &__body {
+        padding: 80px 20px 80px 100px;
+        width: 65%;
+        background-color: 
+        #D9D9D9;
+        position: relative;
+        z-index: 3;
+
+        &_tabs {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+
+            &_item {
+                white-space: nowrap;
+                padding-bottom: 10px;
+                position: relative;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                cursor: pointer;
+                /* Серый */
+
+                color: #2A2A2A;
+                @include def-anim;
+
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    @include def-anim;
+                    height: 3px;
+                    background-color: $blue;
+                    content: '';
+                }
+            }
+
+            &_item.active {
+                color: $blue;
+                &:after {
+                    width: 100%;
+                }
+            }
+        }
+
+        &_list.active {
+            display: block;
+        }
+
+        &_list {
+            display: none;
+            line-height: 32px;
+        }
+
+        &_action {
+            display: flex; 
+            align-items: center;
+            justify-content: flex-end;
+            padding: 40px 0;
+
+            &_link {
+                position: relative;
+                padding-right: 50px;
+                text-decoration-line: underline;
+                color: $blue;
+                &:after {
+                    width: 40px;
+                    height: 40px;
+                    content: '';
+                    position: absolute;
+                    top: calc(50% - 20px);
+                    right: 0;
+                    background-image: url('../img/svg/file.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+}

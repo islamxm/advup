@@ -1,0 +1,55 @@
+.seo-adc {
+    background-color: $blue;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background-color: #D9D9D9;
+        content: '';
+    }
+
+    &__in {
+        display: flex;
+    }
+
+    &__head {
+        width: 35%;
+        padding: 70px 60px;
+        background-color: $blue;
+
+        &_title {
+            color: #E0E0E0;
+        }
+    }
+
+    &__body {   
+        background-color: #D9D9D9;
+        position: relative;
+        z-index: 3;
+        width: 65%;
+        padding: 70px;
+
+        &_item {
+            margin-bottom: 85px;
+
+            &_name {
+                margin-bottom: 35px;
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: uppercase;
+                line-height: 24px;
+            }
+
+            &_text {
+
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

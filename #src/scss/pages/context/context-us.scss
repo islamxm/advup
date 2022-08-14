@@ -1,5 +1,9 @@
 .context-us {
-
+    background-image: url('../img/context-us.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
     &__in {
         padding: 60px 0;
     }

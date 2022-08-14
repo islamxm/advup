@@ -70,3 +70,38 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+
+    .footer {
+
+        &__main {
+
+            &_in {
+                flex-wrap: wrap;
+            }
+
+            &_logo {
+                margin-bottom: 20px;
+            }
+
+            &_nav {
+                width: 100%;
+                flex-wrap: wrap;
+
+                &_part {
+                    margin-right: 0;
+                    width: 100%;
+                }
+            }
+
+            &_ex {
+                margin-left: 0;
+
+                a {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

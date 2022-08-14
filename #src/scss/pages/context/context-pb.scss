@@ -49,3 +49,57 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+
+    .context-pb {
+
+        &__in {
+
+        }
+
+        &__main {
+            width: 48%;
+        }
+
+        &__body {
+            width: 48%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .context-pb {
+
+
+        &__in {
+            padding: 50px 0;
+            flex-wrap: wrap;
+        }
+
+        &__main {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        &__body {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+
+    .context-pb {
+
+        &__body {
+
+            &_item {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

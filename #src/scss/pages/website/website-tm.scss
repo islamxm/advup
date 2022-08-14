@@ -114,3 +114,60 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+
+    .website-tm {
+
+        &__body {
+            flex-wrap: wrap;
+
+            &_main {
+                width: 48%;
+            }
+
+            &_ex {
+                width: 48%;
+                flex-wrap: wrap;
+
+                &_part {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .website-tm {
+
+        &__in {
+            padding: 50px 0;
+        }
+
+        &__head {
+            margin-bottom: 25px;
+
+            &_title {
+                margin-bottom: 25px;
+            }
+        }
+
+        &__body {
+            
+            &_main {
+                width: 100%;
+                margin-bottom: 25px;
+
+                &_item {
+                    margin-bottom: 25px;
+                }
+            }
+
+            &_ex {
+                width: 100%;
+            }
+        }
+    }
+}

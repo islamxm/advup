@@ -74,3 +74,38 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    .seo-acc {
+
+        &__in {
+            padding: 50px 0;
+        }
+
+        &__title {
+            margin-bottom: 25px;
+        }
+
+        &__body {
+
+            &_acc {
+
+                &_item {
+
+                    &_head {
+                        font-size: 16px;
+                    }
+
+                    &_body {
+
+                        &_text {
+                            font-size: 16px;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

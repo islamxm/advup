@@ -63,3 +63,47 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    .seo-rs {
+
+        &__in {
+            padding: 50px 0;
+        }
+
+        &__head {
+            margin-bottom: 25px;
+
+            &_title {
+                margin-bottom: 25px;
+            }
+        }
+
+        &__body {
+
+            &_item {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 620px) {
+
+    .seo-rs {
+
+        &__body {
+
+            &_item {
+                flex-wrap: wrap;
+                &_icon {
+                    margin-bottom: 15px;
+                }
+                &_descr {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

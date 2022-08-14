@@ -66,3 +66,52 @@
         }
     }
 }
+
+@media (max-width: 1000px) {
+
+    .context-ben {
+
+        &__head {
+            margin-bottom: 25px;
+
+            &_title {
+                margin-bottom: 25px;
+            }
+        }
+
+        &__body {
+            flex-wrap: wrap;
+
+            &_item {
+                width: 48%;  
+                margin-bottom: 20px;
+                
+                &_icon {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .context-ben {
+
+        &__in {
+            padding: 50px 0;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .context-ben {
+
+        &__body {
+
+            &_item {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

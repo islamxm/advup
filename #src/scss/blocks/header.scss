@@ -96,3 +96,13 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+
+    .header {
+
+        &__info {
+            display: none;
+        }
+    }
+}

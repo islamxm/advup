@@ -53,3 +53,54 @@
         }
     }
 }
+
+
+
+@media (max-width: 1000px) {
+
+    .seo-sys {
+
+        &__in {
+            background-image: unset;
+        }
+
+        &__head {
+            margin-bottom: 40px;
+
+            &_title {
+                margin-bottom: 20px;
+            }
+
+            &_text {
+                font-size: 16px;
+            }
+        }
+
+        &__body {
+
+            &_list {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .seo-sys {
+        &__in {
+            padding: 50px 0;
+        }
+        &__body {
+
+            &_list {
+
+            }
+
+            &_item {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

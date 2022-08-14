@@ -66,3 +66,39 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+    .website-wh {
+
+        &__body {
+            flex-wrap: wrap;
+
+            &_item {
+                width: 100%;
+                margin-bottom: 25px;
+
+                &_icon {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .website-wh {
+
+        &__in {
+            padding: 50px 0;
+        }
+
+        &__head {
+            margin-bottom: 25px;
+
+            &_title {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

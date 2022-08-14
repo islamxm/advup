@@ -96,3 +96,44 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+
+    .website-rs {
+
+        &__in {
+            flex-wrap: wrap;
+        }
+
+        &__main {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        &__list {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .website-rs {
+
+        &__in {
+            padding: 50px 0;
+        }
+
+        &__list {
+
+            &_item {
+                width: 100%;
+                padding-left: 40px;
+
+                &:after {
+                    left: 0;
+                }
+            }
+        }
+    }
+}

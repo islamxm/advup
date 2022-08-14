@@ -42,3 +42,27 @@
         }
     }
 }
+
+
+@media (max-width: 768px) {
+
+    .off {
+
+        &__head {
+            margin-bottom: 25px;
+        }
+
+        &__body {
+
+            &_form {
+                flex-wrap: wrap;
+
+
+                &_item {
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

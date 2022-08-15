@@ -14,8 +14,8 @@
 <body>
     <div class="wrapper">
         <header class="header">
+
     <div class="container">
-        
         <div class="header__top">
             <a href="#" class="header__logo">
                 <picture>
@@ -29,10 +29,14 @@
                     C 09:00 до 19:00 в будние дни
                 </div>
             </div>
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-            
-        
     </div>
+
     <div class="header__bottom">
         <div class="container">
             <div class="header__bottom_in">
@@ -54,7 +58,7 @@
                     <div class="hero__in">
                         <div class="hero__content">
                             <h2 class="hero__content_title">
-                                Разработка сайтов для бизнеса
+                                Разработка сайтов <br> для бизнеса
                             </h2>
                             <div class="hero__content_subtitle">
                                 ПОД КЛЮЧ <span>+ SEO ОПТИМИЗАЦИЯ</span>
@@ -67,6 +71,12 @@
                                     <li class="hero__content_body_item">Сайты с оптимизацией под поисковые системы</li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="hero__img">
+                            <picture>
+                                <source srcset="" type="image/webp">
+                                <img src="./img/hero-4.png" alt="">
+                            </picture>
                         </div>
                         <div class="hero__feed">
                             <form action="" class="hero__feed_form">
@@ -513,7 +523,61 @@
         </div>
     </div>
 </div>
-            <!-- portfolio -->
+            <div class="port">
+    <div class="container">
+        <div class="port__in">
+            <div class="port__head">
+                <h2 class="port__head_title section-title">Наше портфолио</h2>
+                <div class="port__head_text">Хотите также?</div>
+            </div>
+            <div class="port__body">
+                <div class="port__body_side">
+                    <h2 class="port__body_side_name">Вид сайта</h2>
+                    <button class="port__body_side_btn" data-filter="all">
+                        <div class="port__body_side_btn_icon"></div>
+                        <div class="port__body_side_btn_text">Все</div>
+                    </button>
+                    <button class="port__body_side_btn" data-toggle=".landing">
+                        <div class="port__body_side_btn_icon"></div>
+                        <div class="port__body_side_btn_text">Landing page/сайт-визитка</div>
+                    </button>
+                    <button class="port__body_side_btn" data-toggle=".ecom">
+                        <div class="port__body_side_btn_icon"></div>
+                        <div class="port__body_side_btn_text">Интернет-магазин</div>
+                    </button>
+                    <button class="port__body_side_btn" data-toggle=".coor">
+                        <div class="port__body_side_btn_icon"></div>
+                        <div class="port__body_side_btn_text">Корпоративный сайт</div>
+                    </button>
+                </div>
+                <div class="port__body_content">
+                    <div class="port__body_content_slider swiper">
+                        <div class="port__body_content_slider_wr swiper-wrapper">
+                            <div class="port__body_content_slider_sl swiper-slide mix landing">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="./img/port-1.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="port__body_content_slider_sl swiper-slide mix ecom">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="./img/port-2.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="port__body_content_slider_sl swiper-slide mix coor">
+                                <picture>
+                                    <source srcset="" type="image/webp">
+                                    <img src="./img/port-2.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
             <div class="off">
                 <div class="container">
                     <div class="off__in">
@@ -859,6 +923,15 @@
     </div>
 </footer>
     </div>
+    <div class="mobmenu">
+    <div class="mobmenu__in">
+        <div class="mobmenu__item active"><a href="#">SEO-продвижение</a></div>
+        <div class="mobmenu__item"><a href="#">Контекстная реклама</a></div>
+        <div class="mobmenu__item"><a href="#">Аудит сайтов</a></div>
+        <div class="mobmenu__item"><a href="#">Создание сайтов</a></div>
+        <div class="mobmenu__item"><a href="#">Контакты</a></div>
+    </div>
+</div>
     <script src="js/app.min.js"></script>
 </body>
 </html>

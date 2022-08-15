@@ -4,12 +4,15 @@
         padding: 100px 0;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
+        position: relative;
     }
 
     &__content {
         max-width: 890px;
         width: 100%;
+        position: relative;
+        z-index: 3;
 
         &_title {
             font-weight: 700;
@@ -35,7 +38,7 @@
         }
 
         &_body {
-
+            width: 65%;
             &_head {
                 margin-bottom: 35px;
 
@@ -65,7 +68,24 @@
         }
     }
 
+    &__img {    
+        position: absolute;
+        bottom: 100px;
+        right: 28%;
+        width: 330px;
+        height: 330px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: flex;
+        }
+    }
+
     &__feed {
+        position: relative;
+        z-index: 3;
         &_form {
             background: #FFFFFF;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -121,6 +141,10 @@
             margin-bottom: 20px;
         }
 
+        &__img {
+            display: none;
+        }
+
         &__feed {
             display: flex;
             justify-content: center;
@@ -152,7 +176,7 @@
             }
 
             &_body {
-
+                width: 100%;
                 &_head {
                     margin-bottom: 15px;
                 }

@@ -38,6 +38,7 @@
     "gulp-webp-html-nosvg": "^1.0.5",
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
+    "mixitup": "^3.3.1",
     "sass": "^1.49.7",
     "vinyl-ftp": "^0.6.1",
     "webp-converter": "2.2.3",
@@ -45,6 +46,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "accordion-js": "^3.3.0"
+    "accordion-js": "^3.3.0",
+    "swiper": "^8.3.2"
   }
 }

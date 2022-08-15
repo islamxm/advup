@@ -10,7 +10,7 @@
                     <div class="hero__in">
                         <div class="hero__content">
                             <h2 class="hero__content_title">
-                                Разработка сайтов для бизнеса
+                                Разработка сайтов <br> для бизнеса
                             </h2>
                             <div class="hero__content_subtitle">
                                 ПОД КЛЮЧ <span>+ SEO ОПТИМИЗАЦИЯ</span>
@@ -23,6 +23,12 @@
                                     <li class="hero__content_body_item">Сайты с оптимизацией под поисковые системы</li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="hero__img">
+                            <picture>
+                                <source srcset="" type="image/webp">
+                                <img src="./img/hero-4.png" alt="">
+                            </picture>
                         </div>
                         <div class="hero__feed">
                             <form action="" class="hero__feed_form">
@@ -97,7 +103,7 @@
             @@include('./html/blocks/brands.html')
             @@include('./html/pages/website/website-rs.html')
             @@include('./html/pages/website/website-adc.html')
-            <!-- portfolio -->
+            @@include('./html/blocks/port.html')
             <div class="off">
                 <div class="container">
                     <div class="off__in">
@@ -346,6 +352,7 @@
         </main>
         @@include('./html/blocks/footer.html')
     </div>
+    @@include('./html/components/mobmenu.html')
     <script src="js/app.min.js"></script>
 </body>
 </html>

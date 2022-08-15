@@ -1,5 +1,8 @@
 import { acc } from './modules/acc.js';
 import * as flsFuncs from './modules/functions.js';
+import { marketBr } from './modules/marketBr.js';
+import { mobmenu } from './modules/mobmenu.js';
+import { port } from './modules/port.js';
 import { tabs } from './modules/tabs.js';
 
 
@@ -11,4 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     tabs('.seo-ccl', '.seo-ccl__body_tabs', '.seo-ccl__body_tabs_item', '.seo-ccl__body_list');
     tabs('.context-pro', '.context-pro__tabs', '.context-pro__tabs_item', '.context-pro__body_item');
     acc();
+    marketBr();
+    mobmenu();
+    port();
 })

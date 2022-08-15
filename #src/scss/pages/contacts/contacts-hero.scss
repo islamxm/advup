@@ -15,6 +15,11 @@
             left: 0;
             width: 20px;
             height: 20px;
+            content: '';
+            background-image: url('../img/svg/contacts-icon-1.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
     }
 
@@ -38,6 +43,10 @@
                 width: 20px;
                 height: 20px;
                 content: '';
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+
             }
 
             &_name {
@@ -54,6 +63,25 @@
 
         &_item-tel {
             width: 48%;
+
+
+            &:after {
+                background-image: url('../img/svg/contacts-icon-2.svg');
+            }
+        }
+
+        &_item-tm {
+
+            &:after {
+                background-image: url('../img/svg/contacts-icon-3.svg');
+            }
+        }
+
+        &_item-mail {
+
+            &:after {
+                background-image: url('../img/svg/contacts-icon-4.svg');
+            }
         }
     }
 }

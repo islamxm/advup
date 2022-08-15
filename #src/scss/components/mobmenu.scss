@@ -1,0 +1,52 @@
+.mobmenu.active {
+    transform: translateX(0);
+}
+
+.mobmenu {
+    position: fixed;
+    top: 0;
+    padding-top: 79px;
+    z-index: 99;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E0E0E0;
+    @include def-anim;
+    transform: translateX(100%);
+
+    &__in { 
+        padding: 30px 15px;
+        overflow-y: auto;
+        max-height: 100%;   
+    }
+
+    &__item {
+        margin-bottom: 30px;
+        a {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            @include def-anim;
+        }
+    }
+
+
+    &__item.active {
+        a {
+            color: $blue;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+
+    .mobmenu {
+
+        &__item {
+            a {
+                font-size: 25px;
+                height: 30px;
+            }
+        }
+    }
+}
